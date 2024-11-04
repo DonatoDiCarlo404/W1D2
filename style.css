@@ -1,0 +1,172 @@
+#content {
+    margin: 0;
+    background-color: rgb(174, 196, 196);
+}
+
+
+#sidebar-one {
+    background-color: rgb(23, 23, 52);
+    height: 40px;
+    margin: 0 0; 
+}
+
+#sidebar-two {
+    background-color: rgb(59, 59, 134);
+    height: 40px;
+    margin: 0 0;
+    display: flex;
+}
+
+.logo {
+    height: 80%;
+    padding: 0.3em;
+    margin-left: 0.5em;
+}
+
+.info {
+    margin: 0 0;
+    margin-left: 0.5em;
+    padding: 0.5em;
+    color: white;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+}
+
+#slogan {
+    height: 40%;
+    margin: 2em;
+    padding: 0.5em;
+    background-color:rgb(255, 99, 2);
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav {
+    color: white;
+    font-family: "Roboto", serif;
+}
+
+#blocco-uno {
+    height: 370px;
+    background-color: white;
+    margin: 2em;
+}
+
+#acquista-regalo {
+    display: flex;
+    padding: 0 0.5em;
+    height: 10%;
+    margin: 0.2em;
+}
+
+.regalo {
+    margin: 0.2em;
+}
+
+.ancora {
+    padding: 0.5em;
+    padding-left: 1em;
+    margin-top: 0.1em;
+    font-family: "Roboto", serif;
+}
+
+.modify-img {
+    height: 16em;
+    padding: 1.5em;
+    border-style: groove;
+    cursor: pointer;
+}
+
+#immagini {
+    display: flex;
+    justify-content: space-around;
+}
+
+#blocco-due {
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    margin: 2em;
+}
+
+.titolo {
+    margin: 0 0.3em;
+    padding: 0.2em;
+}
+
+.img-sets {
+    width: 130px;
+}
+
+.text {
+    margin: 0 1.5em;
+}
+
+#griglia {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+#img-text {
+    margin: 0.5em;
+}
+
+.new-uno {
+    height: 50px;
+    position: relative;
+    top: -50%;
+    right: 1%;
+}
+
+.new-due {
+    height: 50px;
+    position: relative;
+    top: -45%;
+}
+
+.new-tre {
+    height: 50px;
+    position: relative;
+    top: -22%;
+    left: 30%
+}
+
+#b2-wrap {
+    display: flex;
+}
+
+#partecipa {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.play {
+    margin-left: 1em;
+}
+
+.ancora-due {
+    padding: 1.2em;
+}
+
+#sidebar-one-foot {
+    background-color: rgb(59, 59, 134);
+    height: 40px;
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.ancora-tre {
+    color: white;
+    padding: 0.5em;
+    position: relative;
+    top: 20%;
+}
+
+#sidebar-two-foot {
+    background-color: rgb(23, 23, 52);
+    height: 160px;
+    margin: 0 0; 
+}
